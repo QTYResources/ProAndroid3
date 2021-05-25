@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SharedDataService</string>
+    <string name="hello_world">This is SharedDataService app hello world string.</string>
+</resources>

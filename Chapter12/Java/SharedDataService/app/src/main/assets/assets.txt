@@ -1,0 +1,1 @@
+This is SharedDataService app assets resource file: assets.txt.

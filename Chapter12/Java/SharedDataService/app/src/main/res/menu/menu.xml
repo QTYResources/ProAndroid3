@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clear"
+        android:title="clear" />
+
+    <item
+        android:id="@+id/set_preference"
+        android:title="Set Preference" />
+
+    <item
+        android:id="@+id/insert_database"
+        android:title="Insert Database" />
+
+</menu>

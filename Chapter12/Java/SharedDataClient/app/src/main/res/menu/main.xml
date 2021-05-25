@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clear"
+        android:title="Clear" />
+
+    <item
+        android:id="@+id/read_string"
+        android:title="Read String" />
+
+
+    <item
+        android:id="@+id/read_raw"
+        android:title="Read Raw" />
+
+    <item
+        android:id="@+id/read_assert"
+        android:title="Read Assert" />
+
+    <item
+        android:id="@+id/read_preference"
+        android:title="Read Preference" />
+
+    <item
+        android:id="@+id/read_database"
+        android:title="Read Database" />
+
+
+</menu>
