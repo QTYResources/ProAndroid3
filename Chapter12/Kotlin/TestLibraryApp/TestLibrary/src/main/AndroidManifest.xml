@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidbook.library.testlibrary">
+
+    <application>
+        <activity
+            android:name=".TestLibActivity"
+            android:label="Test Library Helloworld Activity"></activity>
+    </application>
+
+</manifest>

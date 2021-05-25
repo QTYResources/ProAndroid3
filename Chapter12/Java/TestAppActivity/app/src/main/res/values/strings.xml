@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestAppActivity</string>
+    <string name="hello">Your debug will appear here</string>
+</resources>
