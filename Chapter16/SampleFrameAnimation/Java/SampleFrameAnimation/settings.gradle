@@ -1,0 +1,2 @@
+rootProject.name = "SampleFrameAnimation"
+include ':app'
