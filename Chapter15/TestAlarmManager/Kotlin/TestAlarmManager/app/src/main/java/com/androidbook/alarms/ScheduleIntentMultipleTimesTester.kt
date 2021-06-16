@@ -77,9 +77,9 @@ open class ScheduleIntentMultipleTimesTester(
         val am = mContext.getSystemService(Context.ALARM_SERVICE) as AlarmManager
 
         am.set(AlarmManager.RTC_WAKEUP, cal.timeInMillis, getDistinctPendingIntent(intent, 1))
-        am.set(AlarmManager.RTC_WAKEUP, cal2.timeInMillis, getDistinctPendingIntent(intent, 1))
-        am.set(AlarmManager.RTC_WAKEUP, cal3.timeInMillis, getDistinctPendingIntent(intent, 1))
-        am.set(AlarmManager.RTC_WAKEUP, cal4.timeInMillis, getDistinctPendingIntent(intent, 1))
+        am.set(AlarmManager.RTC_WAKEUP, cal2.timeInMillis, getDistinctPendingIntent(intent, 2))
+        am.set(AlarmManager.RTC_WAKEUP, cal3.timeInMillis, getDistinctPendingIntent(intent, 3))
+        am.set(AlarmManager.RTC_WAKEUP, cal4.timeInMillis, getDistinctPendingIntent(intent, 4))
     }
 
     companion object {

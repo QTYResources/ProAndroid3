@@ -83,8 +83,8 @@ public class ScheduleIntentMultipleTimesTester extends CancelRepeatingAlarmTeste
         AlarmManager am = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
 
         am.set(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), getDistinctPendingIntent(intent, 1));
-        am.set(AlarmManager.RTC_WAKEUP, cal2.getTimeInMillis(), getDistinctPendingIntent(intent, 1));
-        am.set(AlarmManager.RTC_WAKEUP, cal3.getTimeInMillis(), getDistinctPendingIntent(intent, 1));
-        am.set(AlarmManager.RTC_WAKEUP, cal4.getTimeInMillis(), getDistinctPendingIntent(intent, 1));
+        am.set(AlarmManager.RTC_WAKEUP, cal2.getTimeInMillis(), getDistinctPendingIntent(intent, 2));
+        am.set(AlarmManager.RTC_WAKEUP, cal3.getTimeInMillis(), getDistinctPendingIntent(intent, 3));
+        am.set(AlarmManager.RTC_WAKEUP, cal4.getTimeInMillis(), getDistinctPendingIntent(intent, 4));
     }
 }
