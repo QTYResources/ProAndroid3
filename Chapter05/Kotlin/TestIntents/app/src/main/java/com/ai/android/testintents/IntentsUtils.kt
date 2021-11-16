@@ -90,7 +90,14 @@ class IntentsUtils {
             requestCode: Int,
             resultCode: Int,
             outputIntent: Intent) {
+            activity.appendText("parseResult called for pick")
+            activity.appendText("Result code is ok: $resultCode")
+            activity.appendText("The output uri: ")
+            activity.appendText(outputIntent.data.toString())
+        }
 
+        public fun tryOneOfThese(activity: Activity) {
+            IntentsUtils.call(activity)
         }
 
     }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/anotherRadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outside" />
+
+    <RadioGroup
+        android:id="@+id/radGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/chRBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken" />
+
+        <RadioButton
+            android:id="@+id/fishRBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish" />
+
+        <RadioButton
+            android:id="@+id/stkRBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Favorite" />
+    </RadioGroup>
+
+</LinearLayout>
