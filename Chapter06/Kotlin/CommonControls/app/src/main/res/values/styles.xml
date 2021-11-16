@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <style name="ErrorText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -11,5 +12,17 @@
     <style name="ErrorText.Danger">
         <item name="android:textStyle">bold</item>
     </style>
+=======
+<style name="ErrorText">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#FF0000</item>
+    <item name="android:typeface">monospace</item>
+</style>
+
+<style name="ErrorText.Danger">
+    <item name="android:textStyle">bold</item>
+</style>
+>>>>>>> afbbc0f (添加第6章源代码)
 
 </resources>

@@ -2,7 +2,10 @@ package com.androidbook.commoncontrols;
 
 import android.database.Cursor;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.provider.Contacts.People;
+=======
+>>>>>>> afbbc0f (添加第6章源代码)
 import android.provider.ContactsContract;
 import android.widget.GridView;
 import android.widget.SimpleCursorAdapter;

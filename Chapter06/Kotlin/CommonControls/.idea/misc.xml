@@ -23,6 +23,10 @@
         <entry key="app/src/main/res/layout/radiogroup.xml" value="0.19934143870314083" />
         <entry key="app/src/main/res/layout/spinner.xml" value="0.19934143870314083" />
         <entry key="app/src/main/res/layout/styles.xml" value="0.19934143870314083" />
+<<<<<<< HEAD
+=======
+        <entry key="app/src/main/res/layout/table.xml" value="0.375" />
+>>>>>>> afbbc0f (添加第6章源代码)
         <entry key="app/src/main/res/layout/textview.xml" value="0.19934143870314083" />
       </map>
     </option>

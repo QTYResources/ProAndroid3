@@ -1,6 +1,9 @@
 package com.androidbook.commoncontrols;
 
+<<<<<<< HEAD
 import android.app.ListActivity;
+=======
+>>>>>>> afbbc0f (添加第6章源代码)
 import android.content.ContentUris;
 import android.database.Cursor;
 import android.net.Uri;
@@ -11,7 +14,13 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
+<<<<<<< HEAD
 public class ListViewActivity4 extends ListActivity {
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ListViewActivity4 extends AppCompatActivity {
+>>>>>>> afbbc0f (添加第6章源代码)
     private static final String TAG = "ListViewActivity4";
     private static final Uri CONTACTS_URI = ContactsContract.Contacts.CONTENT_URI;
     private SimpleCursorAdapter adapter = null;
@@ -22,7 +31,11 @@ public class ListViewActivity4 extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
 
+<<<<<<< HEAD
         lv = getListView();
+=======
+        lv = findViewById(android.R.id.list);
+>>>>>>> afbbc0f (添加第6章源代码)
 
         String[] projection = new String[]{ContactsContract.Contacts._ID,
                 ContactsContract.Contacts.DISPLAY_NAME};
@@ -37,7 +50,11 @@ public class ListViewActivity4 extends ListActivity {
                 android.R.layout.simple_list_item_multiple_choice,
                 c, cols, views);
 
+<<<<<<< HEAD
         this.setListAdapter(adapter);
+=======
+        lv.setAdapter(adapter);
+>>>>>>> afbbc0f (添加第6章源代码)
 
         lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }
