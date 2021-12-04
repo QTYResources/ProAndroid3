@@ -46,7 +46,7 @@ Chapter08   第 8 章 使用对话框
 
 
 Chapter09   第 9 章 管理和组织首选项
-
+    01. PreferencesDemo                             ==> SharedPreferences 的使用
 
 Chapter10   第 10 章 探索安全性和权限
 
