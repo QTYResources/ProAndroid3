@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Main Menus</string>
+    <item type="id" name="myviewId" />
+    <dimen name="forty_pixels">40px</dimen>
+    <string name="test">Test</string>
+</resources>
