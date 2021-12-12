@@ -40,7 +40,9 @@ Chapter06   第 6 章 构建用户界面和使用控件
     02. CodeInterface                               ==> 使用代码进行布局
 
 Chapter07   第 7 章 使用菜单
-
+    01. TestMenus                                   ==> 菜单的使用实例
+    02. AlternativeMenu                             ==> 交替菜单的处理应用
+    03. AlternativeMenuTest                         ==> 使用交替菜单实例
 
 Chapter08   第 8 章 使用对话框
 

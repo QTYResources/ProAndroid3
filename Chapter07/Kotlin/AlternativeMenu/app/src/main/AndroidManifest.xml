@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ai.android.alternativemenu" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlternativeMenu" >
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivity"
+            android:label="ShowText"
+            android:exported="true">
+            <intent-filter android:label="AlternateMenu" >
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
